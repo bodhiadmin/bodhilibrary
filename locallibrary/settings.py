@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'bodhi07knu8275a3cup@1$8obt2_+&
 DEBUG = False
 
 # Set hosts to allow any app on Heroku and the local testing URL
-ALLOWED_HOSTS = ['.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['bodhilibrary.herokuapp.com','127.0.0.1']
 
 
 # Application definition
