@@ -27,6 +27,12 @@ def index(request):
                  'num_visits': num_visits},
     )
 
+def about(request):
+    return render(
+        request,
+        'about.html',
+        context={},
+    )
 
 from django.views import generic
 
