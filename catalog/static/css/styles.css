@@ -37,7 +37,3 @@ div.bodhi img,
 div.bodhi div.caption {
     width: 100%;
 }
-div.bodhi div {
-    overflow: hidden;
-    white-space: nowrap;
-}
