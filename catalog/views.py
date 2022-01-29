@@ -34,6 +34,13 @@ def about(request):
         context={},
     )
 
+def events(request):
+    return render(
+        request,
+        'events.html',
+        context={},
+    )
+
 from django.views import generic
 
 
