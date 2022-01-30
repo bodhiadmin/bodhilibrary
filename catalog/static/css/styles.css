@@ -25,15 +25,12 @@ h2 {
     font-weight: bold;
 }
 
-a:link, a:visited {
-    color: #375e97;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
 div.bodhi img,
 div.bodhi div.caption {
     width: 100%;
+}
+
+th, td {
+  border-style:solid;
+  border-color: #96D4D4;
 }
